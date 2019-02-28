@@ -3,8 +3,7 @@
 This project used NYC green taxi data collected by the NYC Taxi and Limousine Commission. This folder contains code and report of my analysis of the September 2015 data. For a further dive into the green taxi background and data set, see [NYC TLC](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml). 
 
 ## Folder Structure:
-- `Report.pdf`: Full report for the entire project
-- `Analysis.ipynb`: Jupyter notebook for project workflow visualization. 
+- `analysis.ipynb`: Jupyter notebook for project workflow visualization. 
 - `functions.py`: Helper functions used in the above Jupyter notebook
 - `environment.yml`: This file includes environment requirements and necessary python packages for this project. Need to be installed using Anaconda (i.e. conda env create -f environment.yml).
 
@@ -13,7 +12,7 @@ This section has the commands to quickly get started running code in this folder
 For more detailed installation instructions, see the `Python Environment` below.
 These instructions assume that you already have [conda](https://conda.io/) installed.
 
-First, navigate to the root of the `nyc_green_taxi-C918025` directory in a terminal and run the following:
+First, navigate to the root of the `nyc_green_taxi` directory in a terminal and run the following:
 
 ```bash
 # Install the environment
