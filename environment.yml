@@ -1,0 +1,38 @@
+name: nyc_green_taxi
+channels:
+  - defaults
+dependencies:
+  - openssl=1.0.2h=2
+  - pip=18.1=py27_0
+  - python=2.7.12=1
+  - readline=6.2=2
+  - setuptools=26.1.1=py27_0
+  - sqlite=3.13.0=0
+  - tk=8.5.18=0
+  - wheel=0.29.0=py27_0
+  - zlib=1.2.8=3
+  - pip:
+    - certifi==2018.4.16
+    - chardet==3.0.4
+    - idna==2.6
+    - numpy==1.15.4
+    - pandas==0.23.4
+    - python-dateutil==2.6.1
+    - pytz==2018.3
+    - pyyaml==3.12
+    - requests==2.18.4
+    - scikit-learn==0.19.1
+    - scipy==1.1.0
+    - six==1.11.0
+    - sklearn==0.0
+    - sklearn-pandas==1.6.0
+    - urllib3==1.22
+    - geopandas==0.4.0
+    - geopy==1.17.0
+    - matplotlib==2.2.2
+    - seaborn==0.8.1
+    - Shapely==1.6.4.post2
+    - statsmodels==0.9.0
+    - wget==3.2
+    - xgboost==0.81
+
